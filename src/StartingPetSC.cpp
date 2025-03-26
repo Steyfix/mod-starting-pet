@@ -48,7 +48,7 @@ class StartingPetScripts : public PlayerScript
 public:
     StartingPetScripts() : PlayerScript("StartingPetScripts") { }
 
-    void OnFirstLogin(Player* player) override
+    void OnPlayerFirstLogin(Player* player) override
     {
         if (StartingPetEnable)
         {
